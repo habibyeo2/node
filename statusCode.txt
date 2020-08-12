@@ -1,0 +1,14 @@
+Types of status code
+
+100 - informational reponse
+200 - success code
+300 - code for a redirect
+400 - user or client error
+500 - server error codes
+
+a few examples
+
+200 - ok 
+301 - resource moved
+404 - page does not exist or not found
+500 - internal server error
