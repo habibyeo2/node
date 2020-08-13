@@ -1,7 +1,8 @@
 // in node we manually create the server that listens to requests from the browser
 
-const http = require('http')
-const fs = require('fs')
+const http = require('http');
+const fs = require('fs');
+const _= require("lodash");
 
 //create server takes a callback function as its argument
 //the call back function takes two arguments
@@ -10,6 +11,14 @@ const server = http.createServer((req,res)=>{
     // req and res are both objects for the request and response
     // console.log(req.url,req.method);
 
+    // const num = _.random(0,20)
+    // console.log(num)
+
+    const greet = _.once(() =>{
+        console.log("hello")
+    })
+    greet();
+    greet();
     res.setHeader('Content-type', 'text-html')
 
     //use a switch to set our url/path

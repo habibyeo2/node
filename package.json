@@ -1,0 +1,26 @@
+{
+  "name": "summernode",
+  "version": "1.0.0",
+  "description": "\"learning node\"",
+  "main": "file.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habibyeo2/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habibyeo2/node/issues"
+  },
+  "homepage": "https://github.com/habibyeo2/node#readme",
+  "dependencies": {
+    "espress": "0.0.0"
+  }
+}
