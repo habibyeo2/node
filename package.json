@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/habibyeo2/node#readme",
   "dependencies": {
+    "ejs": "^3.1.3",
     "espress": "0.0.0"
   }
 }
